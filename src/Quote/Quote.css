@@ -1,0 +1,23 @@
+#quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 20%;
+}
+
+#quote-box .quote-text {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+.fa-twitter .fa-tumblr {
+    color: white!important;
+  }
