@@ -12,7 +12,7 @@ export const getQuote = key =>  dispatch => {
         }
     }
     axios
-    .get(`api/random/${key}`,config)
+    .get(`https://zenquotes.io/api/random/${key}`,config)
     .then(res =>{
         dispatch(setQuote(res.data[0]));
     })
